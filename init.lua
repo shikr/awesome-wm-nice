@@ -1,4 +1,4 @@
-if not PLUGIN_DIR then PLUGIN_DIR = ... .. '.' end
+local PLUGIN_DIR = ... .. '.'
 --[[
 ███╗   ██╗██╗ ██████╗███████╗
 ████╗  ██║██║██╔════╝██╔════╝

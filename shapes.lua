@@ -1,4 +1,4 @@
-if not PLUGIN_DIR then PLUGIN_DIR = (...):match("(.-)[^%.]+$") end
+local PLUGIN_DIR = (...):match("(.-)[^%.]+$")
 -- => Shapes
 -- Provides utility functions for handling cairo shapes and geometry
 -- ============================================================

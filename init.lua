@@ -53,7 +53,7 @@ local ipairs = ipairs
 -- => LGI
 -- ============================================================
 local lgi = require("lgi")
-local gdk = lgi.Gdk
+local gdk = lgi.require('Gdk', '3.0')
 local get_default_root_window = gdk.get_default_root_window
 local pixbuf_get_from_surface = gdk.pixbuf_get_from_surface
 local pixbuf_get_from_window = gdk.pixbuf_get_from_window
